@@ -17,10 +17,10 @@ function showLetter() {
       if (i < message.length) {
         typedText.innerHTML += message.charAt(i);
         i++;
-        setTimeout(typeWriter, 30);
+        setTimeout(typeWriter, 40);
       }
     }
 
     typeWriter();
-  }, 300);
+  }, 600);
 }
